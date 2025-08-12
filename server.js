@@ -16,7 +16,7 @@ app.use('/menu', menuRouter);
 app.get('/',  (req,res)=>{
     res.send("Welcome to the hotel ,, how may i help you ")
 })
-
+//  testing command
 app.listen(3000,()=>{
     console.log("Server is runnning at 3000")
 });
